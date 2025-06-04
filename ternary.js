@@ -74,4 +74,17 @@ let n = 2;
 let p = 50;
 
 let minNumber = m < n && m < p ? 'M is Min' : n < m && n < p ? 'N is Min' : 'P is Min'
-console.log(minNumber); // n
+// console.log(minNumber); // n
+
+
+// Problem_9 : Check Voting Eligibility
+
+let age = 16;
+let checkVotingEligibility = age >= 18 ? 'You Can Vote' : 'You Can not Vote';
+console.log(checkVotingEligibility);
+
+// Problem_10 : Pluralization
+                                                                 
+let d = 1;
+let checkPluralization = d === 1 ? `${d} mango` : `${d} mangoes`;
+console.log(checkPluralization);
