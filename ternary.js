@@ -6,7 +6,7 @@
 
 let num = 2;
 let result = num % 2 === 0 ? "Even Number" : "Odd Number";
-console.log(result); 
+// console.log(result); 
 
 
 // Problem_2: find Maximum?
@@ -14,21 +14,21 @@ console.log(result);
 let a =40;
 let b = 30;
 let maxNum = a > b ? 'A is a Maximum Number' : 'B is a Maximum Number';
-console.log(maxNum);
+// console.log(maxNum);
 
 
 // Problem_3: Pass of Fail?
 
 let score = '60';
 let passFail = score >= 50 ? 'Pass' : score >= '50' ? 'Pass' :'Fail';
-console.log(passFail); // 
+// console.log(passFail); // 
 
 
 // Problem_4: Absolute Value?
 
 let x = -3.142514;
 let absoluteValue = x >= 0 ? 'Absolute Value' : 'Not a Absolute Value';
-console.log(absoluteValue);
+// console.log(absoluteValue);
 
 
 
@@ -37,6 +37,7 @@ console.log(absoluteValue);
 let num2 = 10;
 let showResult = num2 < 0 ? 'Negative' : num2 > 0 ? 'Positive' : 'Zero';
 console.log(showResult);
+
 
 // Problem_6: Check Leap Year
 
@@ -59,12 +60,9 @@ let leapYear = (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) ? 'Lea
 console.log(leapYear);
 
 
-/*
-if(num2 > 0){
-    console.log('positive')
-}else if(num2 < 0){
-    console.log('Negative')
-} else{
-    console.log('Zero')
-};
-*/
+// Problem_7 : Grade from Score
+
+let grade = 80;
+let showGrade = grade >= 90 ? 'A' : grade > 79 && grade < 90 ? 'B' : grade > 69 && grade < 90 ? 'C' : grade > 59 && grade < 70 ? 'C' : 'Fail'
+console.log(showGrade);
+
