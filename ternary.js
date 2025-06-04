@@ -57,12 +57,21 @@ So:
 
 let year = 2025;
 let leapYear = (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) ? 'Lear Year' : 'Not a Leap Year'
-console.log(leapYear);
+// console.log(leapYear); 
 
 
 // Problem_7 : Grade from Score
 
 let grade = 80;
 let showGrade = grade >= 90 ? 'A' : grade > 79 && grade < 90 ? 'B' : grade > 69 && grade < 90 ? 'C' : grade > 59 && grade < 70 ? 'C' : 'Fail'
-console.log(showGrade);
+// console.log(showGrade);
 
+
+// Problem_8 : Min of Three Numbers
+
+let m = 10;
+let n = 2;
+let p = 50;
+
+let minNumber = m < n && m < p ? 'M is Min' : n < m && n < p ? 'N is Min' : 'P is Min'
+console.log(minNumber); // n
