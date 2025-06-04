@@ -54,6 +54,11 @@ A year is a leap year if:
 So:
  */
 
+let year = 2025;
+let leapYear = (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) ? 'Lear Year' : 'Not a Leap Year'
+console.log(leapYear);
+
+
 /*
 if(num2 > 0){
     console.log('positive')
